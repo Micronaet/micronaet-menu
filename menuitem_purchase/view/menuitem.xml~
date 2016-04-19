@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <menuitem name="Project"
-            id="base.menu_main_pm"
+        <!--<menuitem name="Purchases"
+            id="base.menu_purchase_root"
             groups="menuitem_base.show_menuitem_mrp"
-            sequence="40"/>    
+            sequence="60"/>-->
+
+        <record model="ir.ui.menu" id="base.menu_purchase_root">
+          <field name="groups_id" eval="[(6,0,[ref('menuitem_base.show_menuitem_purchase')])]"/>
+        </record>
     </data>
 </openerp>
 
