@@ -5,29 +5,34 @@
            id="menu_action_sale_order_agent_tree"
            groups="group_menu_agent"
            string="Agent"
+           name="Agent"
            />       
            <menuitem 
                 parent="menu_action_sale_order_agent_tree" 
                 id="menu_sale_agent_order" 
                 string="Order"
+                name="Order"
                 sequence="10"
                 />
            <menuitem 
                 parent="menu_action_sale_order_agent_tree" 
                 id="menu_sale_agent_order" 
                 string="Anagraphic"
+                name="Anagraphic"
                 sequence="20"
                 />
            <menuitem 
                 parent="menu_action_sale_order_agent_tree" 
                 id="menu_sale_agent_order" 
                 string="Report"
+                name="Report"
                 sequence="30"
                 />
            <menuitem 
                 parent="menu_action_sale_order_agent_tree" 
                 id="menu_sale_agent_order" 
                 string="Configuration"
+                name="Configuration"
                 sequence="90"
                 />
            
