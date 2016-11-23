@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+   <data>
+    <record id="show_menuitem_workshop" model="res.groups">
+        <field name="name">Show MRP workshop</field>
+        <field name="category_id" ref="menuitem_base.show_menuitem_category" />
+        <field name="comment">Show mrp workshop</field>
+    </record>
+   </data>
+</openerp>
