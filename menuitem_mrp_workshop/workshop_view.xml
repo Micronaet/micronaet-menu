@@ -2,19 +2,19 @@
 <openerp>
     <data>
         <menuitem 
-            id="menu_mrp_cut_root" 
-            name="MRP Cut"
+            id="menu_mrp_workshop_root" 
+            name="MRP Workshop"
             sequence="10"
             />
             <menuitem 
-                parent="menu_mrp_cut_root" 
-                id="menu_mrp_cut_view" 
+                parent="menu_mrp_workshop_root" 
+                id="menu_mrp_workshop_view" 
                 name="Manage"
                 sequence="10"
                 />
             <menuitem 
-                parent="menu_mrp_cut_root" 
-                id="menu_mrp_cut_configuration" 
+                parent="menu_mrp_workshop_root" 
+                id="menu_mrp_workshop_configuration" 
                 name="Configuration"
                 sequence="99"
                 />
