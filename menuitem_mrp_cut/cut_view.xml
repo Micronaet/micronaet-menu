@@ -7,7 +7,7 @@
             sequence="10"
             />
             <menuitem 
-                parent="menu_mrp_cut_root" 
+                parent="menu_mrp_cut_root"
                 id="menu_mrp_cut_view" 
                 name="Manage"
                 sequence="10"
