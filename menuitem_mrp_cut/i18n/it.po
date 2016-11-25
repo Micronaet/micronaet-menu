@@ -1,0 +1,43 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* menuitem_mrp_cut
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-25 14:04+0000\n"
+"PO-Revision-Date: 2016-11-25 15:03+0100\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: it\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: menuitem_mrp_cut
+#: model:ir.ui.menu,name:menuitem_mrp_cut.menu_mrp_cut_configuration
+msgid "Configuration"
+msgstr "Configurazione"
+
+#. module: menuitem_mrp_cut
+#: model:ir.ui.menu,name:menuitem_mrp_cut.menu_mrp_cut_root
+msgid "MRP Cut"
+msgstr "Taglio"
+
+#. module: menuitem_mrp_cut
+#: model:ir.ui.menu,name:menuitem_mrp_cut.menu_mrp_cut_view
+msgid "Manage"
+msgstr "Gestione"
+
+#. module: menuitem_mrp_cut
+#: model:res.groups,name:menuitem_mrp_cut.show_menuitem_cut
+msgid "Show MRP cut"
+msgstr "Mostra menu taglio"
+
+#. module: menuitem_mrp_cut
+#: model:res.groups,comment:menuitem_mrp_cut.show_menuitem_cut
+msgid "Show mrp cut"
+msgstr "Show mrp cut"
