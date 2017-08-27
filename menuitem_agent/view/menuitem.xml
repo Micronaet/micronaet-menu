@@ -12,7 +12,7 @@
                 id="menu_sale_agent_order" 
                 string="Order"
                 name="Order"
-                sequence="10"
+                sequence="10"                
                 />
            <menuitem 
                 parent="menu_action_sale_order_agent" 
