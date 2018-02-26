@@ -56,6 +56,7 @@
     <record id="show_menuitem_admin" model="res.groups">
         <field name="name">Show administrator</field>
         <field name="category_id" ref="show_menuitem_category" />
+        <field name="users" eval="[(4, ref('base.user_root'), False)]"/>
         <field name="comment">Show menu administrator (for save installation keep original admin also)</field>
     </record>
     <!--TODO: subsctiption, survey, sale, portal, point_of_sale, marketing, mail, lunch, itea, event, crm, association-->
