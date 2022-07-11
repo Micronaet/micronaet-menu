@@ -39,7 +39,7 @@
         <field name="category_id" ref="show_menuitem_category" />
         <field name="comment">Show menu stock</field>
     </record>
-    <record id="show_menuitem_mrp" model="res.groups">
+    <!--<record id="show_menuitem_mrp" model="res.groups">
         <field name="name">Show mrp</field>
         <field name="category_id" ref="show_menuitem_category" />
         <field name="comment">Show menu mrp</field>
@@ -63,7 +63,7 @@
         <field name="name">Show reporting</field>
         <field name="category_id" ref="show_menuitem_category" />
         <field name="comment">Show menu reporting</field>
-    </record>
+    </record>-->
     <record id="show_menuitem_admin" model="res.groups">
         <field name="name">Show administrator</field>
         <field name="category_id" ref="show_menuitem_category" />
