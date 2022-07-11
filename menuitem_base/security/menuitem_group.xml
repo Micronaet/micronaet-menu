@@ -1,13 +1,24 @@
 <?xml version="1.0"?>
-<openerp>
+<odoo>
   <data>
     <record id="show_menuitem_category" model="ir.module.category">
         <field name="name">Menuitem category</field>
         <field name="sequence">10</field>
-        <field name="description">Manage menuitem visibility (force module groups).</field>
+        <field name="description">Manage menu item visibility (always force module groups).</field>
         <field name="visible" eval="1" />
-    </record>    
+    </record>
 
+    <!--Standard-->
+    <record id="show_menuitem_mail" model="res.groups">
+        <field name="name">Show mail</field>
+        <field name="category_id" ref="show_menuitem_category" />
+        <field name="comment">Show mail messages</field>
+    </record>
+    <record id="show_menuitem_calendar" model="res.groups">
+        <field name="name">Show calendar</field>
+        <field name="category_id" ref="show_menuitem_category" />
+        <field name="comment">Show calendar</field>
+    </record>
     <record id="show_menuitem_sale" model="res.groups">
         <field name="name">Show sale</field>
         <field name="category_id" ref="show_menuitem_category" />
@@ -59,6 +70,6 @@
         <field name="users" eval="[(4, ref('base.user_root'), False)]"/>
         <field name="comment">Show menu administrator (for save installation keep original admin also)</field>
     </record>
-    <!--TODO: subsctiption, survey, sale, portal, point_of_sale, marketing, mail, lunch, itea, event, crm, association-->
+    <!--todo: subsctiption, survey, sale, portal, point_of_sale, marketing, mail, lunch, itea, event, crm, association-->
  </data>
-</openerp>
+</odoo>

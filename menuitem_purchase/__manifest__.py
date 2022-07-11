@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-# ODOO (ex OpenERP) 
+# ODOO (ex OpenERP)
 # Open Source Management Solution
 # Copyright (C) 2001-2015 Micronaet S.r.l. (<http://www.micronaet.it>)
 # Developer: Nicola Riolini @thebrush (<https://it.linkedin.com/in/thebrush>)
@@ -12,7 +12,7 @@
 #
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # See the GNU Affero General Public License for more details.
 #
 # You should have received a copy of the GNU Affero General Public License
@@ -21,20 +21,20 @@
 ###############################################################################
 
 {
-    'name': 'Menuitem Account',
+    'name': 'Menuitem purchase',
     'version': '0.1',
     'category': 'Statistic',
     'description': """
         Module that create a list of standard group for show or hide
-        top / root menu   
-        Extra Account   
+        top / root menu  
+        Extra purchase
         """,
     'author': 'Micronaet s.r.l.',
     'website': 'http://www.micronaet.it',
     'license': 'AGPL-3',
     'depends': [
         'menuitem_base',
-        'account',
+        'purchase',
         ],
     'init_xml': [],
     'demo_xml': [],
@@ -44,5 +44,3 @@
     'active': False,
     'installable': True,
     }
-
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

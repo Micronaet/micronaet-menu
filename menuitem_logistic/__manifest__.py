@@ -19,3 +19,29 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 ###############################################################################
+
+{
+    'name': 'Menuitem purchase',
+    'version': '0.1',
+    'category': 'Statistic',
+    'description': """
+        Module that create a list of standard group for show or hide
+        top / root menu  
+        Extra purchase
+        """,
+    'author': 'Micronaet s.r.l.',
+    'website': 'http://www.micronaet.it',
+    'license': 'AGPL-3',
+    'depends': [
+        'menuitem_base',
+        'tyres_logistic_management',
+        ],
+    'init_xml': [],
+    'demo_xml': [],
+    'data': [
+        'security/logistic_group.xml',
+        'view/menuitem.xml',
+        ],
+    'active': False,
+    'installable': True,
+    }

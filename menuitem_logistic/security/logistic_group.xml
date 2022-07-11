@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+   <data>
+    <!--Custom-->
+    <record id="show_menuitem_cash" model="res.groups">
+        <field name="name">Cash flow</field>
+        <field name="category_id" ref="menuitem_base.show_menuitem_category" />
+        <field name="comment">Show cash flow</field>
+    </record>
+    <record id="show_menuitem_pneus" model="res.groups">
+        <field name="name">Show Pneus</field>
+        <field name="category_id" ref="menuitem_base.show_menuitem_category" />
+        <field name="comment">Show Pneus flow</field>
+    </record>
+    <record id="show_menuitem_logistic" model="res.groups">
+        <field name="name">Show Logistic</field>
+        <field name="category_id" ref="menuitem_base.show_menuitem_category" />
+        <field name="comment">Show Pneus flow</field>
+    </record>
+   </data>
+</openerp>
