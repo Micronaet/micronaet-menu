@@ -2,42 +2,42 @@
 <odoo>
   <data>
     <record id="show_menuitem_category" model="ir.module.category">
-        <field name="name">Menuitem category</field>
+        <field name="name">Visibilità top menu</field>
         <field name="sequence">10</field>
-        <field name="description">Manage menu item visibility (always force module groups).</field>
+        <field name="description">Forza la visibilità dei top menu indicando dei gruppi di appartenza per una facile abilitazione.</field>
         <field name="visible" eval="1" />
     </record>
 
     <!--Standard-->
     <record id="show_menuitem_mail" model="res.groups">
-        <field name="name">Show mail</field>
+        <field name="name">Mostra mail</field>
         <field name="category_id" ref="show_menuitem_category" />
-        <field name="comment">Show mail messages</field>
+        <field name="comment">Mostra mail</field>
     </record>
     <record id="show_menuitem_calendar" model="res.groups">
-        <field name="name">Show calendar</field>
+        <field name="name">Mostra calendario</field>
         <field name="category_id" ref="show_menuitem_category" />
-        <field name="comment">Show calendar</field>
+        <field name="comment">Mostra calendario</field>
     </record>
     <record id="show_menuitem_sale" model="res.groups">
-        <field name="name">Show sale</field>
+        <field name="name">Mostra Vendite</field>
         <field name="category_id" ref="show_menuitem_category" />
-        <field name="comment">Show menu administrator</field>
+        <field name="comment">Mostra Vendite</field>
     </record>
     <record id="show_menuitem_accounting" model="res.groups">
-        <field name="name">Show accounting</field>
+        <field name="name">Mostra Fatturazione</field>
         <field name="category_id" ref="show_menuitem_category" />
-        <field name="comment">Show menu accounting</field>
+        <field name="comment">Mostra Fatturazione</field>
     </record>
     <record id="show_menuitem_purchase" model="res.groups">
-        <field name="name">Show purchase</field>
+        <field name="name">Mostra Acquisti</field>
         <field name="category_id" ref="show_menuitem_category" />
-        <field name="comment">Show menu purchase</field>
+        <field name="comment">Mostra Acquisti</field>
     </record>
     <record id="show_menuitem_stock" model="res.groups">
-        <field name="name">Show stock</field>
+        <field name="name">Mostra Magazzino</field>
         <field name="category_id" ref="show_menuitem_category" />
-        <field name="comment">Show menu stock</field>
+        <field name="comment">Mostra Magazzino</field>
     </record>
     <!--<record id="show_menuitem_mrp" model="res.groups">
         <field name="name">Show mrp</field>
@@ -65,10 +65,10 @@
         <field name="comment">Show menu reporting</field>
     </record>-->
     <record id="show_menuitem_admin" model="res.groups">
-        <field name="name">Show administrator</field>
+        <field name="name">Mostra Amministrazione</field>
         <field name="category_id" ref="show_menuitem_category" />
         <field name="users" eval="[(4, ref('base.user_root'), False)]"/>
-        <field name="comment">Show menu administrator (for save installation keep original admin also)</field>
+        <field name="comment">Mostra Amministrazione</field>
     </record>
     <!--todo: subsctiption, survey, sale, portal, point_of_sale, marketing, mail, lunch, itea, event, crm, association-->
  </data>
