@@ -35,6 +35,7 @@
     'depends': [
         'menuitem_base',
         'tyres_logistic_management',
+        'mmac_odoo4',  # Manage Pneus menu
         ],
     'init_xml': [],
     'demo_xml': [],

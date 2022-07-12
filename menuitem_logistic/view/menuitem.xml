@@ -4,5 +4,8 @@
         <record model="ir.ui.menu" id="tyres_logistic_management.menu_logistic_header_root">
           <field name="groups_id" eval="[(6,0,[ref('menuitem_logistic.show_menuitem_logistic')])]"/>
         </record>
+        <record model="ir.ui.menu" id="mmac_odoo4.main_mmac_officina_menu">
+          <field name="groups_id" eval="[(6,0,[ref('menuitem_logistic.show_menuitem_pneus')])]"/>
+        </record>
     </data>
 </odoo>
